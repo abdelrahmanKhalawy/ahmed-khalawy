@@ -14,7 +14,7 @@
     horizontalScrolling: false,
     hideDistantElements: false,
     scrollProperty: 'scroll'
-  });
+	});
 
 
 	var fullHeight = function() {
@@ -38,7 +38,7 @@
 	loader();
 
 	// Scrollax
-   $.Scrollax();
+    $.Scrollax();
 
 
 
@@ -67,7 +67,7 @@
 
 
 		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
-	    event.preventDefault();
+			event.preventDefault();
 
 	    var href = $.attr(this, 'href');
 
@@ -90,10 +90,10 @@
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
-	    nav:false,
+			nav:false,
 	    autoplayHoverPause: false,
 	    items: 1,
-	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
+			navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
 	      0:{
 	        items:1
