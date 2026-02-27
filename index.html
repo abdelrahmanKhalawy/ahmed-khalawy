@@ -71,6 +71,10 @@
 
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script type="application/ld+json">
       {
@@ -117,9 +121,17 @@
               <a href="#about-section" class="nav-link"><span>About</span></a>
             </li>
             <li class="nav-item">
+              <a href="#education-section" class="nav-link"
+                ><span>Education</span></a
+              >
+            </li>
+            <li class="nav-item">
               <a href="#resume-section" class="nav-link"
                 ><span>Career Journey</span></a
               >
+            </li>
+            <li class="nav-item">
+              <a href="#skills-section" class="nav-link"><span>Skills</span></a>
             </li>
             <li class="nav-item">
               <a href="#services-section" class="nav-link"
@@ -127,17 +139,12 @@
               >
             </li>
             <li class="nav-item">
-              <a href="#skills-section" class="nav-link"><span>Skills</span></a>
-            </li>
-            <li class="nav-item">
               <a href="#projects-section" class="nav-link"
                 ><span>Projects</span></a
               >
             </li>
             <li class="nav-item">
-              <a href="#blog-section" class="nav-link"
-                ><span>Quality Insights</span></a
-              >
+              <a href="#blog-section" class="nav-link"><span>Blogs</span></a>
             </li>
             <li class="nav-item">
               <a href="#contact-section" class="nav-link"
@@ -181,9 +188,8 @@
 
                   <p>
                     <a
-                      href="https://forms.office.com/r/Dt2pCcAp0Q?origin=lprLink"
+                      href="#contact-section"
                       class="btn btn-primary py-3 px-4"
-                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       Schedule Consultation
@@ -228,9 +234,8 @@
 
                   <p>
                     <a
-                      href="https://forms.office.com/r/Dt2pCcAp0Q?origin=lprLink"
+                      href="#contact-section"
                       class="btn btn-primary py-3 px-4"
-                      target="_blank"
                       rel="noopener noreferrer"
                     >
                       Schedule Consultation
@@ -238,6 +243,7 @@
 
                     <a
                       href="https://drive.google.com/file/d/1iOXwUIhNwjsu-qiOC2adugyvIg6LxNd3/view"
+                      target="_blank"
                       class="btn btn-white btn-outline-white py-3 px-4"
                       >Download CV</a
                     >
@@ -268,41 +274,30 @@
                 <h1 class="big">About</h1>
                 <h2 class="mb-4">About Me</h2>
                 <p>
-                  Mechanical Quality Engineer with 7+ years of experience in
-                  building, transforming, and leading Quality Management Systems
-                  across manufacturing, energy, and construction sectors.
-                  <br />
-                  Specialized in ISO 9001 implementation, CE Mark compliance,
-                  Lean Six Sigma, and digital transformation through Power BI
-                  and ERP integration.
+                  Mechanical Quality Engineer and ISO 9001 Consultant in Saudi
+                  Arabia with +<span id="experienceText"></span> years of
+                  experience in building, transforming, and leading Quality
+                  Management Systems (QMS) across manufacturing, energy, and
+                  construction sectors. <br /><br />
+                  Supporting organizations in Riyadh and across Saudi Arabia in
+                  achieving ISO 9001 certification, CE Mark compliance, and
+                  sustainable operational excellence through structured quality
+                  frameworks, risk-based thinking, and performance-driven
+                  strategies.
+                  <br /><br />
+                  Specialized in Digital QMS implementation, KPI
+                  standardization, internal audit leadership, supplier quality
+                  development, and Lean Six Sigma process optimization.
+                  Leveraging Power BI dashboards and ERP integration to convert
+                  quality data into measurable business results, cost reduction,
+                  and continuous improvement.
                 </p>
-                <ul class="about-info mt-4 px-md-0 px-2">
-                  <li class="d-flex">
-                    <span>Name:</span> <span>Ahmed Hosny Khalawy</span>
-                  </li>
-                  <li class="d-flex">
-                    <span>Date of birth:</span> <span>May 20, 1995</span>
-                  </li>
-                  <li class="d-flex">
-                    <span>Address:</span>
-                    <span>Riyadh, Saudi Arabia | Open to Relocation </span>
-                  </li>
-                  <!-- <li class="d-flex">
-                    <span>Zip code:</span> <span>1000</span>
-                  </li> -->
-                  <li class="d-flex">
-                    <span>Email:</span> <span>contact@ahmedkhalawy.com</span>
-                  </li>
-                  <li class="d-flex">
-                    <span>Phone: </span> <span>+966 597 766 864</span>
-                  </li>
-                </ul>
               </div>
             </div>
             <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
                 <p class="mb-4">
-                  <span class="number" data-number="7">0</span>
+                  <span class="number" id="experienceYears">0</span>
                   <span>Years Experience</span>
                 </p>
                 <p>
@@ -315,6 +310,46 @@
                   >
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="education-section">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Education</h1>
+            <h2 class="mb-4">Education</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="resume-wrap ftco-animate text-center education-card">
+              <span class="date">2013-2018</span>
+
+              <h2>B.Sc. Mechanical Power Engineering</h2>
+              <div class="education-logo">
+                <img
+                  src="images/Minufiya-University-photo.png"
+                  alt="Minufiya University Logo"
+                />
+              </div>
+
+              <h5 class="university-name">
+                <a href="https://mu.menofia.edu.eg" target="_blank">
+                  Minufiya University
+                </a>
+              </h5>
+
+              <p class="mt-4">
+                Built a solid foundation in mechanical power systems,
+                thermodynamics, and manufacturing principles, supporting my
+                later specialization in quality engineering and continuous
+                improvement.
+              </p>
             </div>
           </div>
         </div>
@@ -337,17 +372,6 @@
         <div class="row">
           <div class="col-md-6">
             <div class="resume-wrap ftco-animate">
-              <span class="date">2013-2018</span>
-              <h2>B.Sc. Mechanical Power Engineering</h2>
-              <span class="position">Minufiya University </span>
-              <p class="mt-4">
-                Built a solid foundation in mechanical power systems,
-                thermodynamics, and manufacturing principles, supporting my
-                later specialization in quality engineering and continuous
-                improvement.
-              </p>
-            </div>
-            <div class="resume-wrap ftco-animate">
               <span class="date">2018-2020</span>
               <h2>Mechanical Engineer</h2>
               <span class="position">Freelancer</span>
@@ -361,7 +385,16 @@
             <div class="resume-wrap ftco-animate">
               <span class="date">2020-2022</span>
               <h2>Quality Control Engineer</h2>
-              <span class="position">Elaraby Group</span>
+              <span class="position company-link">
+                <img
+                  src="images/Elaraby-photo.jpeg"
+                  alt="Elaraby Logo"
+                  class="company-logo"
+                />
+                <a href="https://www.elarabygroup.eu/en" target="_blank"
+                  >Elaraby Group</a
+                >
+              </span>
               <p class="mt-4">
                 Monitored and controlled manufacturing quality across multiple
                 production lines, analyzing defect trends and implementing
@@ -369,13 +402,19 @@
                 conformity.
               </p>
             </div>
-          </div>
-
-          <div class="col-md-6">
             <div class="resume-wrap ftco-animate">
               <span class="date">2022-2023</span>
               <h2>Quality Assistant Manager</h2>
-              <span class="position">Elaraby Group</span>
+              <span class="position company-link">
+                <img
+                  src="images/eibla-photo.jpg"
+                  alt="Eibla Logo"
+                  class="company-logo"
+                />
+                <a href="https://eiblaelectric.com/" target="_blank"
+                  >Eibla For Energy</a
+                >
+              </span>
               <p class="mt-4">
                 Led the Quality Systems Management function, supervising
                 cross-functional teams and implementing continuous improvement
@@ -383,10 +422,22 @@
                 and strengthen compliance with ISO 9001 standards.
               </p>
             </div>
+          </div>
+
+          <div class="col-md-6">
             <div class="resume-wrap ftco-animate">
               <span class="date">2023-2025</span>
               <h2>Senior QA/QC Engineer</h2>
-              <span class="position">Eibla For Energy</span>
+              <span class="position company-link">
+                <img
+                  src="images/eibla-photo.jpg"
+                  alt="Eibla Logo"
+                  class="company-logo"
+                />
+                <a href="https://eiblaelectric.com/" target="_blank"
+                  >Eibla For Energy</a
+                >
+              </span>
               <p class="mt-4">
                 Led end-to-end QA/QC activities across energy and construction
                 projects, ensuring full compliance with project specifications,
@@ -396,7 +447,16 @@
             <div class="resume-wrap ftco-animate">
               <span class="date">2025-Present</span>
               <h2>Senior Quality Engineer & Organizational Improvement Lead</h2>
-              <span class="position">Yuksel Saudia</span>
+              <span class="position company-link">
+                <img
+                  src="images/yuksel-photo-removebg-preview.png"
+                  alt="Yuksel Logo"
+                  class="company-logo"
+                />
+                <a href="https://yukselsaudia.com/  " target="_blank"
+                  >Yuksel Saudia</a
+                >
+              </span>
               <p class="mt-4">
                 Led enterprise-level quality and organizational improvement
                 initiatives, driving Digital QMS implementation, KPI
@@ -404,19 +464,6 @@
                 across project teams.
               </p>
             </div>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <div class="col-md-6 text-center ftco-animate">
-            <p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1iOXwUIhNwjsu-qiOC2adugyvIg6LxNd3/view"
-                class="btn btn-primary py-4 px-5"
-                >Download CV</a
-              >
-            </p>
           </div>
         </div>
       </div>
@@ -438,106 +485,261 @@
         <div class="row">
           <div class="col-md-12">
             <div class="skills-grid">
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> Quality Assurance</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> Quality Control</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-cog"></i> Lean Six Sigma</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-layers"></i> TQM</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> FMEA</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-file"></i> PPAP</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-settings"></i> QMS Development</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-quality-assurance-8077555.png"
+                    alt="Quality Assurance"
+                  />
+                </div>
+                Quality Assurance
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-shield"></i> ISO 9001</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-users"></i> Supplier Quality</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-clipboard"></i> ITP / PQP / NCR</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> COPQ</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-search"></i> Pre-mass Production
-                Inspection</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-quality-control-6477094.png"
+                    alt="Quality Control"
+                  />
+                </div>
+                Quality Control
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-bar-chart"></i> Data Analysis</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-pie-chart"></i> Power BI</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-database"></i> SAP S/4HANA</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> SPC</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/six-sigma.png" alt="Lean Six Sigma" />
+                </div>
+                Lean Six Sigma
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> AutoCAD</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> SolidWorks</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> Revit</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> MATLAB</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> ANSYS Fluent</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-wrench"></i> Minitab</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/noun-tqm-5285046.png" alt="TQM" />
+                </div>
+                TQM
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-home"></i> HVAC</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-fire"></i> Firefighting</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-check"></i> Plumbing Design</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/FMEA-removebg-preview.png" alt="FMEA" />
+                </div>
+                FMEA
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-file"></i> Microsoft Excel (Advanced)</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/ppap_icon_149898.png" alt="PPAP" />
+                </div>
+                PPAP
+              </span>
 
-              <span class="skill-box ftco-animate"
-                ><i class="icon-chat"></i> Communication</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-help"></i> Problem Solving</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-users"></i> Negotiation</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-timer"></i> Time Management</span
-              >
-              <span class="skill-box ftco-animate"
-                ><i class="icon-product-hunt"></i> Process Improvement</span
-              >
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/qms.png" alt="QMS Development" />
+                </div>
+                QMS Development
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/iso.png" alt="ISO 9001" />
+                </div>
+                ISO 9001
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/quality-control-5483059.png"
+                    alt="Supplier Quality"
+                  />
+                </div>
+                Supplier Quality
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/ITP-PQP-NCR.png" alt="ITP / PQP / NCR" />
+                </div>
+                ITP / PQP / NCR
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/COPQ_-removebg-preview.png" alt="COPQ" />
+                </div>
+                COPQ
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/Pre-mass-Production-Inspection.png"
+                    alt="Pre-mass Production Inspection"
+                  />
+                </div>
+                Pre-mass Production Inspection
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/data-analysis-8120220.png"
+                    alt="Data Analysis"
+                  />
+                </div>
+                Data Analysis
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/powe-BI.png" alt="Power BI" />
+                </div>
+                Power BI
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/sap.png" alt="SAP S/4HANA" />
+                </div>
+                SAP S/4HANA
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/noun-spc-7857518.png" alt="SPC" />
+                </div>
+                SPC
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/noun-cad-978189.png" alt="AutoCAD" />
+                </div>
+                AutoCAD
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/solidworks-removebg-preview.png"
+                    alt="SolidWorks"
+                  />
+                </div>
+                SolidWorks
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/Revit.png" alt="Revit" />
+                </div>
+                Revit
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/noun-matlab-7381932.png" alt="MATLAB" />
+                </div>
+                MATLAB
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/ANSYS-Fluent.png" alt="ANSYS Fluent" />
+                </div>
+                ANSYS Fluent
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/Minitab.png" alt="Minitab" />
+                </div>
+                Minitab
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/noun-hvac-2249022.png" alt="HVAC" />
+                </div>
+                HVAC
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-firefighting-5173863.png"
+                    alt="Firefighting"
+                  />
+                </div>
+                Firefighting
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img src="icons/Plumbing-Design.png" alt="Plumbing Design" />
+                </div>
+                Plumbing Design
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/Microsoft-Excel-Advanced-removebg-preview.png"
+                    alt="Microsoft Excel (Advanced)"
+                  />
+                </div>
+                Microsoft Excel (Advanced)
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-communication-7579822.png"
+                    alt="Communication"
+                  />
+                </div>
+                Communication
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-problem-solving-7118803.png"
+                    alt="Problem Solving"
+                  />
+                </div>
+                Problem Solving
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-negotiation-8218394.png"
+                    alt="Negotiation"
+                  />
+                </div>
+                Negotiation
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-time-management-8305423.png"
+                    alt="Time Management"
+                  />
+                </div>
+                Time Management
+              </span>
+
+              <span class="skill-box ftco-animate">
+                <div class="skill-circle">
+                  <img
+                    src="icons/noun-process-improvement-8300016.png"
+                    alt="Process Improvement"
+                  />
+                </div>
+                Process Improvement
+              </span>
             </div>
           </div>
         </div>
@@ -558,85 +760,65 @@
         </div>
         <div class="row">
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-ideas"></i>
+                <i class="fa-solid fa-certificate"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">ISO 9001 & CE Mark Implementation</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-flasks"></i>
+                <i class="fa-solid fa-clipboard-check"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">QMS Audits & Supplier Quality</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-ideas"></i>
+                <i class="fa-solid fa-gears"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">Lean Six Sigma Optimization</h3>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-analysis"></i>
+                <i class="fa-solid fa-chart-line"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">Power BI Dashboards & Analytics</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-flasks"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">Digital QMS Training</h3>
               </div>
-            </a>
+            </div>
           </div>
-          <!-- <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <i class="flaticon-ideas"></i>
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">Metal Fabrication Consultation</h3>
-              </div>
-            </a>
-          </div> -->
-          <!-- <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
-              <span class="icon">
-                <i class="flaticon-ideas"></i>
-              </span>
-              <div class="desc">
-                <h3 class="mb-5">3D Design & Modeling</h3>
-              </div>
-            </a>
-          </div> -->
           <div class="col-md-4 text-center d-flex ftco-animate">
-            <a href="#" class="services-1">
+            <div class="services-1">
               <span class="icon">
-                <i class="flaticon-ideas"></i>
+                <i class="fa-solid fa-microchip"></i>
               </span>
               <div class="desc">
                 <h3 class="mb-5">Digital Transformation</h3>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -1015,9 +1197,8 @@
             </p>
             <p class="mb-0">
               <a
-                href="https://forms.office.com/r/Dt2pCcAp0Q?origin=lprLink"
+                href="#contact-section"
                 class="btn btn-primary py-3 px-5"
-                target="_blank"
                 rel="noopener noreferrer"
                 >Request a Strategic Consultation</a
               >
@@ -1070,7 +1251,11 @@
             </div>
           </a>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-            <a href="tel:+966597766864" class="contact-card">
+            <a
+              href="https://wa.me/966597766864"
+              target="_blank"
+              class="contact-card"
+            >
               <div class="align-self-stretch box p-4 text-center">
                 <div
                   class="icon d-flex align-items-center justify-content-center"
@@ -1078,7 +1263,11 @@
                   <span class="icon-phone2"></span>
                 </div>
                 <h3 class="mb-4">Contact Number</h3>
-                <p><a href="tel:+966597766864">+966 597 766 864</a></p>
+                <p>
+                  <a href="https://wa.me/966597766864" target="_blank"
+                    >+966 597 766 864</a
+                  >
+                </p>
               </div>
             </a>
           </div>
@@ -1302,7 +1491,7 @@
                     >
                   </li> -->
                   <li>
-                    <a href="tel:+966597766864"
+                    <a href="https://wa.me/966597766864" target="_blank"
                       ><span class="icon icon-phone"></span
                       ><span class="text">+966 597 766 864</span></a
                     >

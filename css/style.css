@@ -12806,7 +12806,6 @@ textarea.form-control {
   z-index: 3;
 }
 
-/* خلي سكشن الـ Hire me تحت منه */
 .ftco-hireme {
   position: relative;
   z-index: 1;
@@ -12878,4 +12877,208 @@ textarea.form-control {
 }
 .project-impact ul {
   margin-bottom: 0;
+}
+
+/* Hero Buttons Enhancement */
+
+.hero .btn {
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* حركة خفيفة لفوق */
+.hero .btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* تأثير خفيف للزرار الأبيض */
+.hero .btn-outline-white:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.hero .btn-primary:hover {
+  background-color: #000 !important;
+  color: #ffc107 !important;
+}
+
+/* تأثير خفيف للزرار الأساسي */
+.hero .btn-primary:hover {
+  opacity: 0.95;
+}
+
+.hero .btn-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgb(255, 193, 7, 0.4);
+}
+
+.hero .btn-outline-white:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Company Link Styling */
+.company-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.company-link a {
+  color: inherit;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.company-link a:hover {
+  color: #fff;
+}
+
+.company-link:hover .company-logo {
+  transform: scale(1.1);
+}
+
+/* Education Section Enhancement */
+
+.education-card {
+  padding: 40px 30px;
+}
+
+.education-logo img {
+  width: 70px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.education-logo img:hover {
+  transform: scale(1.08);
+}
+
+.university-name a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.university-name a:hover {
+  color: #ffc107;
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.skill-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0; /* لون خلفية الدائرة */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.skill-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skill-circle img {
+  width: 35px; /* حجم الصورة داخل الدائرة */
+  height: 35px;
+  object-fit: contain;
+}
+
+.number::before {
+  content: "+";
+}
+
+/* ===== Global Soft Button Effect ===== */
+
+/* نبض خفيف جدًا */
+@keyframes softPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.35);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(255, 193, 7, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 193, 7, 0);
+  }
+}
+
+/* كل الأزرار الأساسية */
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  animation: softPulse 1.8s infinite;
+  /* font-size: 17px; */
+  /* padding: 14px 34px; */
+  /* border-radius: 12px; */
+  transition: all 0.3s ease;
+}
+
+/* تأثير لمعة الضوء */
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transition: 0.6s;
+}
+
+/* Hover */
+.btn-primary:hover::before {
+  left: 130%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+/* تصغير الخط في الفوتر فقط */
+
+.ftco-footer {
+  font-size: 14px;
+}
+
+/* تصغير العناوين شوية */
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+}
+
+/* تصغير اللينكات */
+.ftco-footer a {
+  font-size: 13px;
+}
+
+/* تصغير النصوص */
+.ftco-footer p,
+.ftco-footer .text {
+  font-size: 14px;
 }

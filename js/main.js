@@ -86,7 +86,9 @@
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:true,
-	    autoplay: true,
+		autoplay: true,
+		autoplayTimeout: 8000, // 8 ثواني
+autoplaySpeed: 1500,
 	    margin:0,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
@@ -269,8 +271,24 @@
     fixedContentPos: false
   });
 
+// Dynamic Experience Years
+var startYear = 2019; // سنة بداية الشغل الفعلي
+var currentYear = new Date().getFullYear();
+var years = currentYear - startYear;
 
+document.getElementById("experienceYears").setAttribute("data-number", years);
 
+// العداد اللي فيه أنيميشن
+var counterElement = document.getElementById("experienceYears");
+if (counterElement) {
+  counterElement.setAttribute("data-number", years);
+}
+
+// النص اللي في الجملة
+var textElement = document.getElementById("experienceText");
+if (textElement) {
+  textElement.textContent = years;
+}
 
 
 })(jQuery);
